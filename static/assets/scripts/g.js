@@ -30,21 +30,21 @@ function handleClick(app) {
   return false
 }
 
-function CustomApp(customApp) {
-  let apps = localStorage.getItem('Gcustom')
+//function CustomApp(customApp) {
+//  let apps = localStorage.getItem('Gcustom')
 
-  if (apps === null) {
-    apps = {}
-  } else {
-    apps = JSON.parse(apps)
-  }
+//  if (apps === null) {
+//    apps = {}
+//  } else {
+//    apps = JSON.parse(apps)
+//  }
 
-  const key = 'custom' + (Object.keys(apps).length + 1)
+ // const key = 'custom' + (Object.keys(apps).length + 1)
 
-  apps[key] = customApp
+ // apps[key] = customApp
 
-  localStorage.setItem('Gcustom', JSON.stringify(apps))
-}
+ // localStorage.setItem('Gcustom', JSON.stringify(apps))
+//}
 
 function setPin(index) {
   let pins = localStorage.getItem('Gpinned')
