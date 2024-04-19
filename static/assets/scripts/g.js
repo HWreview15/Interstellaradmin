@@ -78,21 +78,21 @@ function pinContains(i, p) {
   return false
 }
 
-function Custom(app) {
-  const title = prompt('Enter title for the app:')
-  const link = prompt('Enter link for the app:')
-  if (title && link) {
-    const customApp = {
-      name: '[Custom] ' + title,
-      link: link,
-      image: '/assets/media/icons/custom.webp',
-      custom: false,
-    }
-
-    CustomApp(customApp)
-    initializeCustomApp(customApp)
-  }
-}
+//function Custom(app) {
+  //const title = prompt('Enter title for the app:')
+  //const link = prompt('Enter link for the app:')
+//  if (title && link) {
+  //  const customApp = {
+    //  name: '[Custom] ' + title,
+      //link: link,
+//      image: '/assets/media/icons/custom.webp',
+//      custom: false,
+//    }
+//
+//    CustomApp(customApp)
+//    initializeCustomApp(customApp)
+//  }
+//}
 
 function initializeCustomApp(customApp) {
   const columnDiv = document.createElement('div')
